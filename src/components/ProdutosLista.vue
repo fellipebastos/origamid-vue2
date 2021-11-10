@@ -33,7 +33,7 @@
 </template>
 
 <script>
-import api from "@/services.js";
+import { api } from "@/services.js";
 
 import ProdutosPaginar from "@/components/ProdutosPaginar.vue";
 

@@ -23,7 +23,7 @@
 </template>
 
 <script>
-import api from "@/services.js";
+import { api } from "@/services.js";
 
 export default {
   name: "Produto",
