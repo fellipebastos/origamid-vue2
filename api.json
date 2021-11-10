@@ -21,6 +21,18 @@
       "numero": "25",
       "estado": "RJ",
       "cidade": "Rio de Janeiro"
+    },
+    {
+      "id": "fellipe@origamid.com",
+      "nome": "Fellipe Bastos",
+      "email": "fellipe@origamid.com",
+      "senha": "123",
+      "cep": "21220100",
+      "rua": "Praça Osvaldo Lima",
+      "numero": "11",
+      "bairro": "Vila Kosmos",
+      "cidade": "Rio de Janeiro",
+      "estado": "RJ"
     }
   ],
   "produto": [
