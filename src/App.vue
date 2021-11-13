@@ -49,11 +49,6 @@ ul {
   list-style: none;
 }
 
-button,
-input[type="submit"] {
-  cursor: pointer;
-}
-
 a {
   color: #345;
   text-decoration: none;
@@ -76,11 +71,16 @@ img {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   box-shadow: 0 4px 8px rgba(30, 60, 90, 0.2);
   transition: all 0.3s;
+  cursor: pointer;
 }
 
-.btn:hover {
+.btn:hover:not(:disabled) {
   background: #65d;
   transform: scale(1.1);
+}
+
+.btn:disabled {
+  background: #bbc;
 }
 
 label {

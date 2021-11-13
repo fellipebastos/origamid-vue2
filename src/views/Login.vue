@@ -9,6 +9,7 @@
       <input type="password" name="senha" id="senha" v-model="login.senha" />
 
       <button class="btn" @click.prevent="logar">Logar</button>
+      <ErroNotificacao :erros="erros" />
     </form>
 
     <p class="perdeu">
@@ -33,6 +34,7 @@ export default {
         email: "",
         senha: "",
       },
+      erros: [],
     };
   },
   methods: {
